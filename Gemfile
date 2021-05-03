@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.5.2'
+gem 'rails', '5.2'
 gem 'puma'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'jbuilder'
+gem 'sdoc', group: :doc
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'paperclip'
@@ -29,7 +29,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
   gem 'byebug'
 end
 
