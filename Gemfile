@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2'
+ruby '2.7.2'
+
+gem 'rails', '5.2.5'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
@@ -34,6 +36,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
   gem 'spring'
 end
